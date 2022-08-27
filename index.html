@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title"> Calculation Nation</h1>
+
+<table class="calculator">
+
+    <tr>  
+        <td colspan="3"> 
+            <input id="result" class="display-box" type="hi" disabled>
+        </td>
+        <td>
+            <input id="btn" class="button" value="c" onclick="clearScreen()" type="button">
+        </td>
+    
+    </tr>
+    <tr>
+        <td><input value="1" onclick="display('1')" type="button" class="button"> </td>
+        <td><input value="2" onclick="display('2')" type="button" class="button"> </td>
+        <td><input value="3" onclick="display('3')" type="button" class="button"> </td>
+        <td><input value="/" type="button" class="button"> </td>
+    </tr>
+    <tr>
+        <td><input value="4" onclick="display('4')" type="button" class="button"> </td>
+        <td><input value="5" onclick="display('5')" type="button" class="button"> </td>
+        <td><input value="6" onclick="display('6')" type="button" class="button"> </td>
+        <td><input value="*" onclick="display('*')" type="button" class="button"> </td>
+    </tr>
+    <tr>
+        <td><input value="7" onclick="display('7')" ype="button" class="button"> </td>
+        <td><input value="8" onclick="display('8')" type="button" class="button"> </td>
+        <td><input value="9" onclick="display('9')" type="button" class="button"> </td>
+        <td><input value="-" onclick="display('-')" type="button" class="button"> </td>
+    </tr>
+    <tr>
+        <td><input value="." onclick="display('.')"type="button" class="button"> </td>
+        <td><input value="0" onclick="display('0')"type="button" class="button"> </td>
+        <td><input id="btn" onclick="calculate()" value="=" type="button" class="button"> </td>
+        <td><input value="+" onclick="display('*')" type="button" class="button"> </td>
+    </tr>
+    
+
+
+</table>
+
+<script type="text/javascript" src="script.js"> </script>
+
+</body>
+</html>
